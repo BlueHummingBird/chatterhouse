@@ -2,6 +2,9 @@
   "name": "p2p-video-chat-webrtc",
   "version": "0.1.0",
   "description": "",
+  "engines": {
+    "node": "4.1.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "budo index.js:bundle.js"
