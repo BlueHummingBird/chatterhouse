@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js"
+    "start": "index.js"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
   "devDependencies": {
-    "budo": "^4.1.0"
+    "budo": "^4.1.0",
+    "express": "^4.13.3"    
   },
   "dependencies": {
-    "express": "^4.13.3",
     "simple-peer": "^5.11.4"
   }
 }
