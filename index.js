@@ -1,6 +1,6 @@
-navigator.getUserMedia = navigator.getUserMedia || navigator.mozGetUserMedia || navigator.webkitGetUserMedia;
+var media = navigator.getUserMedia || navigator.mozGetUserMedia || navigator.webkitGetUserMedia;
 
-navigator.getUserMedia({ video: true, audio: false }, function (stream) {
+media({ video: true, audio: false }, function (stream) {
   var Peer = require('simple-peer')
   var peer = new Peer({
     initiator: location.hash === '#init',
