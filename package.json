@@ -12,6 +12,7 @@
     "budo": "^4.1.0"
   },
   "dependencies": {
+    "express": "^4.13.3",
     "simple-peer": "^5.11.4"
   }
 }
